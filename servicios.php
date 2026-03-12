@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> -->
+
+
+    <title>Desarrollo Web | Miguel Sandoval</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 25px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 24px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .servicios {
+            display: grid;
+            /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+
+
+        .portafolio {
+            text-align: center;
+        }
+
+        .portafolio a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .precio {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .precio h3 {
+            font-size: 40px;
+            color: #28a745;
+        }
+
+        .fa-whatsapp {
+            color: #28a745;
+            margin-right: 5px;
+        }
+
+        .fa-object-group {
+            color: green;
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="servicios">
+
+            <!-- <h1>Creación de páginas web</h1> -->
+            <img src="/img/servicio.png" width="100%">
+            <!-- <p>
+        Desarrollo páginas web para emprendedores y negocios
+    </p> -->
+
+            <a href="https://wa.me/56984365044" class="btn p0">
+                Solicitar página web
+            </a>
+        </div>
+
+    </header>
+
+    <div class="nota" id="nota">
+        <p><strong>Ideal para:</strong></p>
+
+        <p>
+            Emprendedores <i class="fa-solid fa-check"></i></p>
+        <p>
+            Venta de comida <i class="fa-solid fa-check"></i></p>
+        <p>
+            Ropa <i class="fa-solid fa-check"></i></p>
+        <p>
+            Productos caseros <i class="fa-solid fa-check"></i></p>
+        <p>
+            Negocios de barrio <i class="fa-solid fa-check"></i></p>
+    </div>
+    <section>
+
+
+        <!-- <h2>Servicios</h2> -->
+
+        <div class="servicios">
+
+            <div class="card">
+                <h3>🌐 Páginas web</h3>
+                <p>Diseño de páginas modernas para negocios o emprendimientos.</p>
+            </div>
+
+            <div class="card">
+                <h3>📱 Adaptadas a celular</h3>
+                <p>Tu página funcionará perfectamente en celulares, tablets y computadoras.</p>
+            </div>
+
+            <div class="card">
+                <h3><i class="fa-brands fa-whatsapp"></i> Botón de WhatsApp</h3>
+                <p>Para que tus clientes puedan contactarte fácilmente.</p>
+            </div>
+
+            <div class="card">
+                <h3>⚙️ Sistemas web</h3>
+                <p>Desarrollo de sistemas y paneles administrativos.</p>
+            </div>
+
+            <div class="card">
+                <h3>📢 Flayer para whatsapp</h3>
+                <p>Diseño de flyers digitales para promocionar productos
+                    y compartir fácilmente en WhatsApp o redes sociales..</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- <section class="portafolio">
+
+        <h2>Proyecto realizado</h2>
+
+        <p>Página comunitaria desarrollada para centralizar información de vecinos.</p>
+
+        <a href="#">Ver proyecto</a>
+
+    </section> -->
+
+    <section>
+
+        <div class="precio">
+            <h2>Página web básica desde:</h2>
+
+            <h3>$50.000</h3>
+
+            <p>
+                Incluye diseño web, adaptación a celular y botón de contacto (whatsapp).
+            </p>
+
+            <a href="https://wa.me/56984365044" class="btn">
+                Contactar
+            </a>
+    </section>
+
+    <section>
+
+        <div class="precio">
+
+            <h2>Flayer</h2>
+            <div class="dpf">
+                <div class="planes">
+
+                    <p>Simples</p>
+                    <h3>$5.000 c/u </h3>
+                    <h3>3 X $12.000</h3>
+                </div>
+                <div class="planes">
+
+                    <p>Personalizados</p>
+                    <h3>$10.000 c/u </h3>
+                    <h3>3 X $25.000</h3>
+                </div>
+            </div>
+
+            <p>
+                Diseño de flyers digitales para promocionar tus productos en redes sociales y WhatsApp.
+            </p>
+
+            <a href="https://wa.me/56984365044" class="btn">
+                Contactar
+            </a>
+    </section>
+
+
+    </div>
+
+    <footer>
+
+        <p>Desarrollado por Miguel Sandoval</p>
+
+    </footer>
+
+</body>
+
+</html>

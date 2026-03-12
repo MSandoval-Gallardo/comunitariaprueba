@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Nogales de Nos - Comunidad San Bernardo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<!-- Encabezado -->
+<section id="header">
+    <header>
+        <div class="villa">
+
+            <img id="emblema" src="/img/emblema.png" alt="emblema">
+            <!-- <h1>Villa Nogales de Nos</h1> -->
+            <h2>Bienvenidos a la página de la <strong>Villa Nogales de Nos</strong>.</h2>
+            <p>Aquí encontrarás información de seguridad, emergencias, actividades y servicios comunitarios.</p>
+        </div>
+
+    </header>
+</section>
+
+
+<!-- Navegación rápida para móviles -->
+<div class="nav-secciones">
+    <a href="#emergencias" class="nav-btn">Emergencias</a>
+    <a href="#salud" class="nav-btn">Salud</a>
+    <a href="#veterinarias" class="nav-btn">Veterinarias</a>
+    <a href="#farmacias" class="nav-btn">Farmacias</a>
+    <a href="#basura" class="nav-btn">Recolección</a>
+    <a href="#transporte" class="nav-btn">Transporte</a>
+    <a href="#servicios" class="nav-btn">Servicios Básicos</a>
+    <a href="#mapa" class="nav-btn">Mapa</a>
+    <a href="#deportes" class="nav-btn">Deportes</a>
+</div>
+
+
+<main>
+    <!-- Sección de Emergencias -->
+    <section id="emergencias">
+        <h3><i class="fas fa-exclamation-triangle"></i> Emergencias</h3>
+        <div class="emergencia-grid">
+            <div class="emergencia-item">
+                <i class="fa-solid fa-shield"></i>
+                <h4>Carabineros</h4>
+                <div class="emergencia-numero">133</div>
+                <a href="tel:133" class="btn-llamar">Llamar ahora</a>
+                <span>
+                    <a href="#carabineros"> ver más...</a>
+                </span>
+            </div>
+            <div class="emergencia-item">
+                <i class="fas fa-user-secret"></i>
+                <h4>PDI</h4>
+                <div class="emergencia-numero">134</div>
+                <a href="tel:134" class="btn-llamar">Llamar ahora</a>
+                <span>
+                    <a href="#pdi"> ver más...</a>
+                </span>
+            </div>
+            <div class="emergencia-item">
+                <i class="fas fa-fire-extinguisher"></i>
+                <h4>Bomberos</h4>
+                <div class="emergencia-numero">132</div>
+                <a href="tel:132" class="btn-llamar">Llamar ahora</a>
+                <span>
+                    <a href="#bomberos"> ver más...</a>
+                </span>
+            </div>
+            <div class="emergencia-item">
+                <i class="fas fa-ambulance"></i>
+                <h4>SAMU / Ambulancia</h4>
+                <div class="emergencia-numero">131</div>
+                <a href="tel:131" class="btn-llamar">Llamar ahora</a>
+                <span>
+                    <a href="#salud"> ver más...</a>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Carabineros -->
+    <section id="carabineros">
+        <h3><i class="fas fa-shield-alt"></i> Carabineros Cercanos</h3>
+        <div class="info-item">
+            <h4>Comisaría San Bernardo</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Av. Colón Sur N° 0713, San Bernardo, Región Metropolitana </p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56228561234">(2) 2856 1234</a></p>
+            <div class="horario">
+                <strong>Horario de atención:</strong> Lunes a viernes de 9:00 a 18:00 horas. Atención de emergencias las 24 horas.
+            </div>
+            <a href="tel:+56228561234" class="btn-accion"><i class="fas fa-phone btn-style"></i> Llamar</a>
+            <a href="https://www.google.com/maps/place/CARABINEROS+DE+CHILE+PREFECTURA+DEL+MAIPO+62+COMISARIA+SAN+BERNARDO/@-33.5944925,-70.686749,18z/data=!4m6!3m5!1s0x9662d96ed47aacef:0x773077b5d0248e8!8m2!3d-33.5943709!4d-70.6866336!16s%2Fg%2F1hdzzymvp?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D" target="_blank" class="btn-accion secundario"><i class="fas fa-map-marked-alt btn-style "></i> Ver en mapa</a>
+        </div>
+    </section>
+
+    <!-- Sección de PDI -->
+    <section id="pdi">
+        <h3><i class="fas fa-user-secret"></i> Policía de Investigaciones (PDI)</h3>
+        <div class="info-item">
+            <h4>Brigada de Investigación Criminal San Bernardo</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Eyzaguirre 737, San Bernardo</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56228569874">(2) 2856 9874</a></p>
+            <div class="horario">
+                <strong>Horario de atención:</strong> Lunes a viernes de 9:00 a 17:00 horas.
+            </div>
+            <!-- <p><strong>Emergencias PDI:</strong> <a href="tel:134">134</a></p> -->
+            <a href="tel:+56228569874" class="btn-accion"><i class="fas fa-phone btn-style"></i> Llamar</a>
+            <a href="https://maps.google.com/?q=Eyzaguirre 737, San Bernardo" target="_blank" class="btn-accion secundario"><i class="fas fa-map-marked-alt btn-style"></i> Ver en mapa</a>
+        </div>
+    </section>
+
+    <!-- Sección de Bomberos -->
+    <section id="bomberos">
+        <h3><i class="fas fa-fire-extinguisher"></i> Bomberos</h3>
+        <div class="info-item">
+            <h4>Cuartel General Bomberos San Bernardo</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Av. Portales 4459</p>
+            <!-- <p><strong>Teléfono de emergencias:</strong> <a href="tel:132">132</a></p> -->
+            <p><i class="fas fa-phone"></i>Teléfono administrativo: <a href="tel:+56228561235">(2) 2856 1235</a></p>
+            <div class="horario">
+                <strong>Atención de emergencias:</strong> Las 24 horas, todos los días.
+            </div>
+            <a href="tel:132" class="btn-accion"><i class="fas fa-phone  btn-style"></i> Llamar</a>
+            <a href="https://www.google.com/maps/@-33.6389166,-70.7081369,3a,90y,94.61h,86.45t/data=!3m7!1e1!3m5!1sJYqAmREFoTQdvKlwgzqKMw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.547947371715807%26panoid%3DJYqAmREFoTQdvKlwgzqKMw%26yaw%3D94.60558155013182!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D" target="_blank" class="btn-accion secundario"><i class="fas fa-map-marked-alt btn-style"></i> Ver en mapa</a>
+        </div>
+    </section>
+
+    <!-- Sección de Salud -->
+    <section id="salud">
+        <h3><i class="fas fa-hospital"></i> Salud</h3>
+        <div class="info-item">
+            <h4>CESFAM Villa Nogales</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Av. Nogales 1250, San Bernardo</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56228564567">(2) 2856 4567</a></p>
+            <div class="horario">
+                <strong>Horario de atención:</strong> Lunes a viernes de 8:30 a 17:00 horas. Sábados de 9:00 a 13:00 horas.
+            </div>
+        </div>
+        <div class="info-item">
+            <h4>CESFAM Padre Joan Alsina</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Fernando Márquez de La Plata 5, San Bernardo</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56225766050">(2) 25766050</a></p>
+            <div class="horario">
+                <strong>Horario de atención:</strong> Lunes a jueves de 8:00 a 17:00 horas.
+            </div>
+        </div>
+        <div class="info-item">
+            <h4>CESFAM y SAPU Raúl Brañes Farmer</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Condell 1036, San Bernardo</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56224816654">(2) 24816654</a></p>
+            <div class="horario">
+                <strong>Horario de atención:</strong> Lunes a jueves: de 17:00 hasta el día siguiente.
+                Viernes de: 16:00 hasta el día siguiente.
+                Sábado, domingo y festivos: 24 horas.
+            </div>
+        </div>
+        <div class="info-item">
+            <h4>Centro Médico Integramedica</h4>
+            <p><i class="fas fa-map-marker-alt"></i> mall plaza sur, San Bernardo</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56226366666">(2) 2636 6666</a></p>
+            <div class="horario">
+                <strong>Horario de atención:</strong> Lunes a viernes: de 8:00 a 20:00.
+                Sábado de 7:30 a 19:30 horas.
+                Domingo de 7:30 a 14:00 horas.
+            </div>
+        </div>
+        <div class="info-item">
+            <h4>Centro Médico y Dental Betannia</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Urmeneta 843, San Bernardo, Región Metropolitana</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56228135605">(2) 2813 5605</a></p>
+            <div class="horario">
+                <strong>Horario de atención:</strong> Lunes a viernes: de 8:30 a 19:00
+                Sábado de 10:00 a 14:00 horas.
+            </div>
+        </div>
+    </section>
+
+    <section id="veterinarias">
+        <h3><i class="fa-solid fa-shield-cat"></i> Veterinarias cercanas</h3>
+        <div class="info-item">
+            <h4>Clínica Veterinaria Vetcant</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Almte. Riveros 1379, San Bernardo, Región Metropolitana</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56966314463"></a>9 6631 4463</p>
+            <div class="horario">
+                <strong>Horario:</strong> Lunes a Viernes: 10:00 a 19:00 hrs. Sábado: 10:00 a 15:00 hrs. Domingos: cerrado
+            </div>
+        </div>
+        <div class="info-item">
+            <h4>Clínica Veterinaria San Pascual</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Cam. Padre Hurtado 18422, San Bernardo, Región Metropolitana</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56959339288"></a>9 5933 9288</p>
+            <div class="horario">
+                <strong>Horario:</strong> Abierto todos los días
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Sección de Recolección de Basura -->
+    <section id="farmacias">
+
+        <h3><i class="fa-solid fa-kit-medical"></i> Farmacias cercanas</h3>
+        <div class="info-item">
+            <h4>Farmacia Elo</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Cam. Padre Hurtado (frente a colegio Palmarés Valle de los condores).</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56957166048"></a>9 5716 6048</p>
+            <div class="horario">
+                <strong>Horario:</strong> Lunes a Viernes: 08:00 a 21:00 hrs. Sábado: 09:00 a 21:00 hrs. Domingos: 10:00 a 20:00 hrs.
+            </div>
+        </div>
+
+        <div class="info-item">
+            <h4>Farmacia Salcobrand</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Almte. Riveros N° 1202, Local 3 y 4, San Bernardo, Región Metropolitana</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:6003606000"></a>600 360 6000</p>
+            <div class="horario">
+                <strong>Horario:</strong> Lunes a Sábado: 09:00 a 20:30 hrs. Domingos: 10:00 a 20:00 hrs.
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Sección de Recolección de Basura -->
+    <section id="basura">
+
+        <h3><i class="fas fa-trash-alt"></i> Recolección de Basura</h3>
+        <div class="info-item">
+            <div class="horario">
+                <h4><i class="fas fa-calendar-day"></i> Días de retiro</h4>
+                <p>Martes, Jueves y Sábado</p>
+                <h4><i class="fas fa-clock"></i> Horario aproximado</h4>
+                <p>Entre las 10:00 y 12:00 horas</p>
+            </div>
+        </div>
+
+        <div class="nota">
+            <strong>Importante:</strong> Los horarios pueden variar debido a factores climáticos, días feriados o situaciones especiales.
+        </div>
+    </section>
+
+    <!-- Sección de reciclaje -->
+    <section id="reciclaje">
+
+        <h3><i class="fa-solid fa-recycle"></i> Zonas de Reciclaje</h3>
+        <div class="info-item">
+            <div class="horario">
+                <h4><i class="fas fa-calendar-day"></i>Recipientes disponibles</h4>
+                <p>En todas las plazas</p>
+                <!-- </div>
+                    <div class="info-item"> -->
+                <h4><i class="fas fa-clock"></i>¿Qué puedo reciclar?</h4>
+                <p><i class="fa-solid fa-box-open"></i> Cartón - <i class="fa-solid fa-wine-glass-empty"></i> Vidrio - <i class="fa-solid fa-bottle-water"></i> Plástico</p>
+            </div>
+            <div class="tac">
+                <img src="/img/tachos.jpg" alt="tachos">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Sección de Transporte Público -->
+    <section id="transporte">
+        <h3><i class="fas fa-bus"></i> Transporte Público</h3>
+        <div class="info-item">
+            <h4>Buses que pasan por Villa Nogales</h4>
+            <div class="horario">
+                <p><strong> Recorrido G02:</strong>
+                <div class="nota-simple"> Frecuencia aprox. 9-15 min (días hábiles) / 13-20 min (fines de semana).</div>
+                <div class="nota-simple"> Horario: 05:30 a 23:30 aprox.</div>
+                </p>
+                Catemito / Buenos Aires / América / Nueva Espejino / San José / Av. Portales / Estación Maestranza / Plaza de San Bernardo / Camino Nos - Los Morros / Camino Padre Hurtado.
+            </div>
+            <div class="horario">
+                <p><strong>Recorrido G14:</strong>
+                <div class="nota-simple"> Frecuencia aprox. 9-12 min (días hábiles) / 11-16 min (fines de semana).</div>
+                <div class="nota-simple"> Horario: 05:30 a 22:47 horas (días hábiles) / 05:30 a 23:20 horas (fines de semana) aprox.</div>
+                </p>
+                Camino Padre Hurtado / Almirante Riveros / Eucaliptus / Barros Arana / Colón / Freire / Gran Avenida José Miguel Carrera / Santa Marta.
+            </div>
+
+            <div class="horario">
+                <p><strong>Recorrido G24:</strong>
+                <div class="nota-simple">Frecuencia aprox. 8-15 min (días hábiles) / 15 - 20 min (fines de semana).</div>
+                <div class="nota-simple">Horario: 03:15 a 01:00 (días hábiles) / 03:15 a 23:30 (fines de semana) aprox. </div>
+                </p>
+                Camino Padre Hurtado / Metro Hospital el Pino / Vecinal Sur / General Silva / Av. Nueva Imperial / San Francisco / Lo Blanco / Julio Chávez / Julio Barrenechea / San Francisco / Av. Nueva Imperial / General Silva / Vecinal Sur / Padre hurtado / Lo Moreno / Martín de Solís / Av. Lo Blanco / Padre Hurtado.
+
+            </div>
+            <div class="horario">
+                <p><strong>Recorrido 282:</strong>
+                <div class="nota-simple">Frecuencia aprox. 1 - 2 horas (días hábiles) / 2 horas (fines de semana).</div>
+                <div class="nota-simple">Horario: 05:30 a 23:30 (días hábiles) / 06:15 a 23:30 (Domingo y festivos) aprox. </div>
+                </p>
+                General Urrutia / Av. portales / A. Presidente Jorge Alessandri / Regina Gálvez / Camino los Morros / Camino Padre Hurtado / Av. Virginia Subercaseaux / Av. Concha y Toro / Balmaceda.
+
+
+            </div>
+            <div class="nota">
+                <strong>Nota:</strong> Los horarios y recorridos son aproximados y pueden variar. Se recomienda consultar aplicaciones de transporte como <a href="https://moovitapp.com/es" target="_blank">"Moovit"</a> o <a href="https://www.red.cl" target="_blank"> "Red"</a> para información en tiempo real.
+            </div>
+        </div>
+        <div class="info-item">
+            <h4>Paraderos principales de la villa</h4>
+            <p> <a href="https://www.google.com/maps/place/PG718-Camino+Padre+Hurtado+%2F+esq.+San+Adolfo/@-33.6423978,-70.6694648,44m/data=!3m1!1e3!4m6!3m5!1s0x9662d85fff096651:0x5ce236718912a8dd!8m2!3d-33.64237!4d-70.66942!16s%2Fg%2F11b6yd6q1h?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn-accion secundario"> PG718-Camino Padre Hurtado / esq. San Adolfo</a></p>
+            <p> <a href="https://www.google.com/maps/place/PG711-Camino+Padre+Hurtado+%2F+esq.+San+Adolfo/@-33.6423613,-70.669491,65m/data=!3m1!1e3!4m6!3m5!1s0x9662d8f555f1e693:0xfc2edd3647ecffad!8m2!3d-33.64254!4d-70.66946!16s%2Fg%2F11b6yd4ddz?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn-accion secundario"> PG711-Camino Padre Hurtado / esq. San Adolfo </a></p>
+        </div>
+
+        <div class="info-item">
+
+            <h4>Colectivos que pasan por Villa Nogales</h4>
+            <div class="horario">
+                <p><strong> 5078</strong>
+                <div class="nota-simple"> Valle nevado - Plaza San Bernardo</div>
+                </p>
+            </div>
+            <div class="horario">
+                <p><strong> 5064</strong>
+                <div class="nota-simple"> Buin - San Bernardo</div>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Sección de Servicios Básicos -->
+    <section id="servicios">
+        <h3><i class="fas fa-tools"></i> Servicios Básicos</h3>
+        <div class="info-item">
+            <h4><i class="fas fa-tint"></i> Agua Potable</h4>
+            <p><strong>Empresa:</strong> Aguas Andinas</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:*8000">*8000</a></p>
+            <a href="https://www.aguasandinas.cl" target="_blank" class="btn-accion"> <i class="fa-solid fa-globe btn-style"></i> Sitio web</a>
+        </div>
+        <div class="info-item">
+            <h4><i class="fas fa-bolt"></i> Electricidad</h4>
+            <p><strong>Empresa:</strong> CGE</p>
+            <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:800800767">800 800 767</a></p>
+            <a href="https://www.cge.cl/" target="_blank" class="btn-accion"> <i class="fa-solid fa-globe btn-style"></i> Sitio web</a>
+        </div>
+    </section>
+
+    <!-- Sección de Educación
+        <section id="educacion">
+            <h3><i class="fas fa-graduation-cap"></i> Educación</h3>
+            <div class="info-item">
+                <h4>Jardín Junji la playa</h4>
+                <p><i class="fas fa-map-marker-alt"></i>La Playa 2399, San Bernardo, Región Metropolitana</p>
+                <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56228563210">(2) 2856 3210</a></p>
+                <p><strong>Tipo:</strong> Municipal</p>
+            </div>
+            <div class="info-item">
+                <h4>Jardín Infantil Rayito de Sol</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Pasaje Los Nogales 250, San Bernardo</p>
+                <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56228569876">(2) 2856 9876</a></p>
+                <p><strong>Tipo:</strong> Particular subvencionado</p>
+            </div>
+        </section> -->
+
+    <!-- Sección de Mapa -->
+    <section id="mapa">
+        <h3><i class="fas fa-map"></i> Mapa de la villa</h3>
+        <p>Ubicación de Villa Nogales de Nos y puntos de interés en San Bernardo</p>
+        <div id="mapa-container">
+            <div class="mapa-placeholder">
+                <!-- <i class="fas fa-map-marked-alt"></i> -->
+                <h4>Mapa de Villa Nogales de Nos</h4>
+                <!-- <p>Ubicación de Villa en Google Maps</p> -->
+                <a href="https://maps.google.com/?q=Villa+Nogales+de+Nos,+San+Bernardo,+Chile" target="_blank" class="btn-accion">Ver en Google Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Junta de Vecinos -->
+    <!-- <section id="junta">
+            <h3><i class="fas fa-users"></i> Junta de Vecinos</h3>
+            <div class="info-item">
+                <h4>Junta de Vecinos Villa Nogales de Nos</h4>
+                <p><strong>Presidente:</strong> Juan Pérez</p>
+                <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+56987654321">9 8765 4321</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:junta@villanogalesdenos.cl">junta@villanogalesdenos.cl</a></p>
+                <div class="horario">
+                    <strong>Reuniones:</strong> Primer miércoles de cada mes a las 19:00 horas en la sede comunitaria (Av. Nogales 1200).
+                </div>
+            </div>
+        </section> -->
+
+    <!-- Sección de deportes Comunitarios -->
+    <section id="deportes">
+        <h3><i class="fas fa-bullhorn"></i> Avisos Deportivos</h3>
+
+        <div class="nota">
+            <!-- <div class="nota-simple">Información obtenida desde el Grupo de whatsapp. Ante cualquier modificación favor comunicar para actualizar.</div> -->
+            <h3>info. del Grupo</h3>
+            <p>Estimados vecinos, les informamos que mañana inician oficialmente los entrenamientos en la cancha San José de Azapa. Por favor, asistan en los días y horarios asignados a cada equipo.</p>
+            <strong>
+                <p>💰 Información sobre Cuotas</p>
+            </strong>
+            <p>Para mantener y mejorar nuestros implementos, se establece lo siguiente:
+                Valor: $500 pesos mensuales por cada deporte inscrito.
+                Ejemplo: Si un niño participa en 3 deportes, el total mensual será de $1.500 ($500 por cada uno).</p>
+            <p>Uso del fondo: El dinero recaudado se invertirá exclusivamente en implementos para el deporte respectivo.
+                Inicio de cobro: Los pagos se recibirán a partir de mañana.</p>
+            <p>Importante: En caso de retiro voluntario de alguna actividad, no se realizará devolución de dinero.</p>
+            🛡️ Seguridad y Responsabilidad
+            Menores de edad: Solicitamos obligatoriamente que los niños pequeños estén acompañados por su apoderado durante toda la actividad,
+            para asistir ante cualquier necesidad o emergencia.
+        </div>
+        <div class="avisos-container">
+            <div class="aviso">
+                <h4>VÓLEIBOL</h4>
+                <strong>
+                    <p class="fecha">Sábado y Domingo</p>
+                </strong>
+                <li>
+                    <p>Benjamin (hasta los 10 años) y Alevín (11 y 12 años): desde las 18:00 a 19:00 hrs.</p>
+                </li>
+                <li>
+                    <p>Juvenil (13 a 17 años): desde las 19:00 a 20:00 hrs.</p>
+                </li>
+                <li>
+                    <p>Juvenil - Adulto: desde las 20:00 a 22:00 hrs.</p>
+                </li>
+            </div>
+            <div class="aviso">
+                <h4>BABY FÚTBOL</h4>
+                <strong>
+                    <p class="fecha">Martes y Jueves</p>
+                </strong>
+                <li>
+                    <p>Equipo 1: 19:00 a 20:00 hrs.</p>
+                </li>
+                <li>
+                    <p>Equipo 2: 20:00 a 21:00 hrs.</p>
+                </li>
+                <li>
+                    <p>Equipo 3: 21:00 a 22:00 hrs.</p>
+                </li>
+                <li>
+                    <p>Equipo 4: 22:00 a 00:00 hrs.</p>
+                </li>
+            </div>
+            <div class="aviso">
+                <h4>BÁSQUETBOL</h4>
+                <strong>
+                    <p class="fecha">Lunes y Miércoles</p>
+                </strong>
+                <li>
+                    <p>Equipo 2: 20:00 a 21:00 hrs.</p>
+                </li>
+                <li>
+                    <p>Equipo 1: 21:00 a 22:00 hrs.</p>
+                </li>
+            </div>
+            <div class="aviso">
+                <h4>BOXEO</h4>
+                <strong>
+                    <p class="fecha">Viernes</p>
+                </strong>
+                <p>Lugar: En la sede de la villa que está al lado de la shell</p>
+                <li>
+                    <p> Niños desde las 19:00 a 20:00 hrs.</p>
+                </li>
+                <li>
+                    <p>Adultos desde las 20:00 a 21:00</p>
+                </li>
+                <div class="nota">
+                    <p><strong>Llevar:</strong> botella con agua y zapatillas cómodas para trotar y calcetines
+                        que te hagan sentir cómod@ ya que la clase dentro de la sede es sin zapatillas</p>
+                    <p>En la primera clase no será necesario llevar guantes, pero si más Adelante tendrás
+                        que llevar tus implementos personales:</p>
+                    <ul type="circle">
+                        <li>vendas
+                        <li>protector bucal
+                        <li>guantes
+                        <li>protector cabezal
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes -->
+    <!-- <section id="faq">
+            <h3><i class="fas fa-question-circle"></i> Preguntas Frecuentes</h3>
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <span>¿Qué hacer si no pasó el camión de basura?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-respuesta">
+                    <p>Si el camión de basura no pasó en el horario habitual, puedes comunicarte con la Dirección de Aseo y Ornato de la Municipalidad de San Bernardo al teléfono (2) 2857 1234. También puedes reportar la situación a través de la aplicación "San Bernardo Muni".</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <span>¿Dónde denunciar ruidos molestos?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-respuesta">
+                    <p>Las denuncias por ruidos molestos se realizan en Carabineros (133) o en la SEC (Superintendencia de Electricidad y Combustibles) al 600 600 6060 si se trata de establecimientos comerciales. También puedes contactar a la unidad de medio ambiente de la municipalidad.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <span>¿Dónde acudir en una emergencia médica?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-respuesta">
+                    <p>Para emergencias médicas, llama al SAMU (131) o acude al SAPU más cercano (Av. Freire 850). Si la emergencia es de menor gravedad, puedes acudir al CESFAM Villa Nogales en su horario de atención.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-pregunta">
+                    <span>¿Cómo reportar una luminaria dañada?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-respuesta">
+                    <p>Puedes reportar luminarias dañadas llamando a la Dirección de Tránsito y Ornato de la Municipalidad de San Bernardo al (2) 2857 5678 o a través de la página web del municipio en la sección de "Reportes ciudadanos".</p>
+                </div>
+            </div>
+        </section> -->
+    <div class="visit">
+        <!-- Elfsight Visitor Counter | Untitled Visitor Counter -->
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-8605ae83-fab0-4d76-a6f9-1aa17f32de6d" data-elfsight-app-lazy></div>
+    </div>
+
+    <?php
+
+    $archivo = "cont.txt";
+
+    $visitas = file_get_contents($archivo);
+
+    $visitas++;
+
+    file_put_contents($archivo, $visitas);
+
+    // echo "Visitas a la página de la comunidad: " . $visitas;     
+
+    ?>
+
+</main>
+
+<!-- Pie de página -->
+<footer>
+    <p><strong>Villa Nogales de Nos - Comunidad San Bernardo</strong></p>
+    <p class="legal-info">Esta página es solo informativa y no reemplaza canales oficiales. La información proporcionada puede cambiar y se recomienda verificar con las fuentes oficiales.</p>
+    <!-- <p class="actualizacion">Última actualización: <span id="fecha-actualizacion"></span></p> -->
+    <p>Para sugerencias o correcciones: <a href="mailto:webvillanogalesdenos@gmail.com" style="color: var(--secondary-color);">webvillanogalesdenos@gmail.cl</a></p>
+
+</footer>
+
+<!-- boton para subir  -->
+<p>
+    <a href="#header" class="subir-share">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+</p>
+<!-- Botón flotante para compartir por WhatsApp -->
+<p>
+    <a href="https://api.whatsapp.com/send?text=Mira%20esta%20página%20comunitaria%20de%20Villa%20Nogales%20de%20Nos%3A%20" class="whatsapp-share" id="whatsapp-share">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</p>
+
+<script src="script.js"></script>
+<a href="https://wa.me/56984365044?text=Hola%20vi%20la%20pagina%20de%20la%20villa%20y%20me%20interesa%20una%20pagina%20web"
+    class="btn-web">
+    💻 Crear página web
+</a>
+
+<section class="promo-web">
+    <h2>¿Tienes un emprendimiento en la comunidad?</h2>
+
+    <p>
+        Si necesitas una página web para tu negocio o emprendimiento,
+        también puedo ayudarte a crear una.
+    </p>
+
+    <ul>
+        <li>✔️ Diseño moderno</li>
+        <li>✔️ Adaptada para celulares</li>
+        <li>✔️ Botón directo a WhatsApp</li>
+        <li>✔️ Ideal para emprendedores</li>
+    </ul>
+
+    <a href="/servicios.php" class="btn-contacto">Conocer más</a>
+    <!-- <a href="https://wa.me/56984365044?text=Hola%20me%20gustaria%20tener%20mayor%20información%20para%20tener%20mi%20página%20web."
+        class="btn-contacto">Solicitar información</a> -->
+
+</section>
+</body>
+
+
+</html>
